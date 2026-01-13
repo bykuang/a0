@@ -10,5 +10,9 @@ if __name__ == "__main__":
         
         for _ in range(i):
             print("  ", end = "")
-        print("+-+-+")
-        
+            
+        if num-1 == i: 
+            print("+-+")
+        else:
+            print("+-+-+")        
+
