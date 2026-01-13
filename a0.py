@@ -1,5 +1,14 @@
+
 if __name__ == "__main__":
     num = int(input())
+
+    print("+-+")
     for i in range(num):
-        print(+-+)
+        for _ in range(i):
+            print("  ", end = "")
+        print("| |")
+        
+        for _ in range(i):
+            print("  ", end = "")
+        print("+-+-+")
         
