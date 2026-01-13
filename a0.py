@@ -1,2 +1,5 @@
 if __name__ == "__main__":
-    print("git test 2.1")
+    num = int(input())
+    for i in range(num):
+        print(+-+)
+        
